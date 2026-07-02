@@ -120,7 +120,7 @@ To connect Clerk to your local server during development:
    - `user.deleted`
 4. Copy the generated **Signing Secret** into your `.env` as `CLERK_WEBHOOK_SIGNING_SECRET`.
 
-> ⚠️ Note: Free ngrok URLs change on every restart. Update the Clerk endpoint URL each time you restart ngrok during local development.
+
 
 ## 📡 API Endpoints
 
@@ -135,10 +135,5 @@ To connect Clerk to your local server during development:
 
 Socket.IO is initialized in `lib/socket.js` and shares the same HTTP server instance as Express, enabling real-time bi-directional communication for messaging features.
 
-## 📦 Production Build
 
-If a `public/` directory exists (e.g. from a frontend build), the server automatically serves it as static files and falls back to `index.html` for client-side routing.
 
-## 📝 License
-
-*(Add your license here, e.g. MIT)*

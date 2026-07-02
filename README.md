@@ -135,5 +135,7 @@ To connect Clerk to your local server during development:
 
 Socket.IO is initialized in `lib/socket.js` and shares the same HTTP server instance as Express, enabling real-time bi-directional communication for messaging features.
 
+DEPLOYMENT LINK : https://real-time-chat-application-b8xd.vercel.app/
+
 
 
